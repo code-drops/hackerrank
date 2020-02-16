@@ -1,5 +1,4 @@
 /*
-https://www.hackerrank.com/challenges/30-2d-arrays/problem
 
 Given a  2D Array,
 1 1 1 0 0 0
