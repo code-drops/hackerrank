@@ -10,6 +10,7 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner in = new Scanner(System.in);
         int T = in.nextInt();
         
@@ -19,7 +20,7 @@ public class Solution {
             if(n<2)
                 System.out.println("Not prime");
             else {
-                for(int j = 2; j<= n-1; j++) {
+                for(int j = 2; j*j<= n; j++) {
                     if(n % j == 0)
                         count++;
                 }
