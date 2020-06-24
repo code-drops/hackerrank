@@ -1,3 +1,5 @@
+# wheather a year is leap year or not
+
 def is_leap(year):
     if year%400==0:
         return True
