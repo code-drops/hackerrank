@@ -6,5 +6,5 @@ For example, if the string s='abcac' and n=10, the substring we consider is abca
 if __name__=='__main__':
     s = input()
     n = int(input())
-    L = n // len(s)
+    L = len(s)
     print(s.count('a') * (n//L) + s[:n % L].count('a'))
