@@ -1,4 +1,4 @@
-//Write a program to find whether a no is power of two.
+// Write a program to find whether a no is power of two.
 
 
 #include <cmath>
